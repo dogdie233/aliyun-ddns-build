@@ -81,9 +81,9 @@ namespace aliyun_ddns.IPGetter
             });
         }
 
-        private IEnumerable<IPNetwork> GetIPNetworks()
+        private IEnumerable<System.Net.IPNetwork> GetIPNetworks()
         {
-            List<IPNetwork> nets = new List<IPNetwork>();
+            List<System.Net.IPNetwork> nets = new List<IPNetwork>();
             string text = IPNetworks;
             if (string.IsNullOrEmpty(text) == false)
             {

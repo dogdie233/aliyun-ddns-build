@@ -81,7 +81,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>aliyun_ddns</RootNamespace>
     <Version>0.2.7</Version>
     <Authors>sanjusss</Authors>
